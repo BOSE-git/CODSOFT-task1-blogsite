@@ -1,0 +1,5 @@
+.userblogs-container{
+    margin-left: 15vw;
+    display: flex;
+    flex-wrap: wrap;
+}

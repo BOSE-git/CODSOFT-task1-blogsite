@@ -1,0 +1,57 @@
+.login-container{
+    margin-left: 15vw;
+    height: 100vh;
+    width: 85vw;
+    background-color: #FF6969;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.outline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 25vw;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+.login-logo{
+    padding-bottom: 2rem;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+.inputarea{
+    text-align: center;
+    padding: 0.5rem 3rem;
+    margin: 0.2rem 0;
+    border-radius: 10px;
+    border: 0.5px solid black;
+}
+
+.submit{
+    margin: 2rem 0 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit:hover{
+    background-color: #141E46;
+    color: white;
+}
+.Auth{
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: 0.5s;
+}
+.Auth:hover{
+    font-size: 1rem;
+}

@@ -1,0 +1,43 @@
+.addblog-container{
+    margin-left: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85vw;
+    height: 100vh;
+    background-color: #FF6969;
+    font-family: 'Montserrat', sans-serif;
+}
+.addblog-outline{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+.addblog-outline form{
+    display: flex;
+    flex-direction: column;
+}
+
+.addblog-outline h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+form input{
+    margin: 10px 10px;
+    padding: 10px 30vw;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#descBLOG{
+    padding: 15vh 0;
+}
+.blog-add-button{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.blog-add-button:hover{
+    background-color: #141E46;
+    color: white;
+}
